@@ -1,7 +1,7 @@
-﻿using BlazingChat.Shared.DTOs;
+﻿using WoTalk.Shared.DTOs;
 using System.ComponentModel;
 
-namespace BlazingChat.Client.States
+namespace WoTalk.Client.States
 {
     public class AuthenticationState : INotifyPropertyChanged
     {

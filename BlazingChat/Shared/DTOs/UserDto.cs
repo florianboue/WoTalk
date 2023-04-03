@@ -1,4 +1,4 @@
-﻿namespace BlazingChat.Shared.DTOs
+﻿namespace WoTalk.Shared.DTOs
 {
     public class UserDto
     {

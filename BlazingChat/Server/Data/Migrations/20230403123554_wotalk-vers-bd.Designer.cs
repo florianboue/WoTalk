@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace WoTalk.Server.Data.Migrations
 {
     [DbContext(typeof(ChatContext))]
-    [Migration("20230301194253_FixedUserIdColumnsInMessage")]
-    partial class FixedUserIdColumnsInMessage
+    [Migration("20230403123554_wotalk-vers-bd")]
+    partial class wotalkversbd
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

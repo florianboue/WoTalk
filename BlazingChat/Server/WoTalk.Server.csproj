@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7d761c1c-f1b0-4a1d-a5d2-3e42cf3abdee</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\BlazingChat.Client.csproj" />
-    <ProjectReference Include="..\Shared\BlazingChat.Shared.csproj" />
+    <ProjectReference Include="..\Client\WoTalk.Client.csproj" />
+    <ProjectReference Include="..\Shared\WoTalk.Shared.csproj" />
   </ItemGroup>
 
 

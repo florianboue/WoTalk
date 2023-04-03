@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace BlazingChat.Server.Data.Migrations
+namespace WoTalk.Server.Data.Migrations
 {
     public partial class InitialMigration : Migration
     {

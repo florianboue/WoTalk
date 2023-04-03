@@ -1,12 +1,12 @@
-﻿using BlazingChat.Server.Data;
-using BlazingChat.Server.Data.Entities;
-using BlazingChat.Server.Hubs;
-using BlazingChat.Shared;
+﻿using WoTalk.Server.Data;
+using WoTalk.Server.Data.Entities;
+using WoTalk.Server.Hubs;
+using WoTalk.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazingChat.Server.Controllers
+namespace WoTalk.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -14,9 +14,9 @@ namespace BlazingChat.Server.Controllers
     {
         private readonly ChatContext _chatContext;
         private readonly TokenService _tokenService;
-        private readonly IHubContext<BlazingChatHub, IBlazingChatHubClient> _hubContext;
+        private readonly IHubContext<WoTalkHub, IWoTalkHubClient> _hubContext;
 
-        public AccountController(ChatContext chatContext, TokenService tokenService, IHubContext<BlazingChatHub, IBlazingChatHubClient> hubContext)
+        public AccountController(ChatContext chatContext, TokenService tokenService, IHubContext<WoTalkHub, IWoTalkHubClient> hubContext)
         {
             _chatContext = chatContext;
             _tokenService = tokenService;

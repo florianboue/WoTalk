@@ -1,21 +1,21 @@
-﻿using BlazingChat.Server.Data;
-using BlazingChat.Server.Data.Entities;
-using BlazingChat.Server.Hubs;
-using BlazingChat.Shared;
+﻿using WoTalk.Server.Data;
+using WoTalk.Server.Data.Entities;
+using WoTalk.Server.Hubs;
+using WoTalk.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazingChat.Server.Controllers
+namespace WoTalk.Server.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
     public class MessagesController : BaseController
     {
         private readonly ChatContext _chatContext;
-        private readonly IHubContext<BlazingChatHub, IBlazingChatHubClient> _hubContext;
+        private readonly IHubContext<WoTalkHub, IWoTalkHubClient> _hubContext;
 
-        public MessagesController(ChatContext chatContext, IHubContext<BlazingChatHub, IBlazingChatHubClient> hubContext)
+        public MessagesController(ChatContext chatContext, IHubContext<WoTalkHub, IWoTalkHubClient> hubContext)
         {
             _chatContext = chatContext;
             _hubContext = hubContext;

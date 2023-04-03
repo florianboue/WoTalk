@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BlazingChat.Server.Data.Entities
+namespace WoTalk.Server.Data.Entities
 {
     [Table("Message")]
     public class Message

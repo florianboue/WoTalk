@@ -1,7 +1,7 @@
-﻿using BlazingChat.Server.Data.Entities;
+﻿using WoTalk.Server.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazingChat.Server.Data
+namespace WoTalk.Server.Data
 {
     public class ChatContext : DbContext
     {

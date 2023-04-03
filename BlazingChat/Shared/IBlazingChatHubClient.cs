@@ -1,8 +1,8 @@
-﻿using BlazingChat.Shared.DTOs;
+﻿using WoTalk.Shared.DTOs;
 
-namespace BlazingChat.Shared
+namespace WoTalk.Shared
 {
-    public interface IBlazingChatHubClient
+    public interface IWoTalkHubClient
     {
         Task UserConnected(UserDto user);
         Task OnlineUsersList(IEnumerable<UserDto> users);

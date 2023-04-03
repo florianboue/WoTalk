@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace BlazingChat.Client.Helpers
+namespace WoTalk.Client.Helpers
 {
     public static class JsonConverter
     {

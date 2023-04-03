@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace BlazingChat.Server.Data.Migrations
+namespace WoTalk.Server.Data.Migrations
 {
     public partial class FixedUserIdColumnsInMessage : Migration
     {

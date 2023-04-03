@@ -1,4 +1,4 @@
-using BlazingChat.Client;
+using WoTalk.Client;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

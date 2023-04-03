@@ -1,15 +1,15 @@
-﻿using BlazingChat.Shared;
+﻿using WoTalk.Shared;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 
-namespace BlazingChat.Server.Hubs
+namespace WoTalk.Server.Hubs
 {
     [Authorize]
-    public class BlazingChatHub: Hub<IBlazingChatHubClient>, IBlazingChatHubServer
+    public class WoTalkHub: Hub<IWoTalkHubClient>, IWoTalkHubServer
     {
         private static readonly IDictionary<int, UserDto> _onlineUsers = new Dictionary<int, UserDto>();
 
-        public BlazingChatHub()
+        public WoTalkHub()
         {
 
         }

@@ -1,6 +1,6 @@
-using BlazingChat.Server;
-using BlazingChat.Server.Data;
-using BlazingChat.Server.Hubs;
+using WoTalk.Server;
+using WoTalk.Server.Data;
+using WoTalk.Server.Hubs;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 
@@ -69,7 +69,7 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 app.MapControllers();
-app.MapHub<BlazingChatHub>("/hubs/blazing-chat");
+app.MapHub<WoTalkHub>("/hubs/blazing-chat");
 app.MapFallbackToFile("index.html");
 
 app.Run();

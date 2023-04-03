@@ -1,9 +1,9 @@
-﻿using BlazingChat.Server.Data;
+﻿using WoTalk.Server.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
-namespace BlazingChat.Server.Controllers
+namespace WoTalk.Server.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

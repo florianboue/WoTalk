@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BlazingChat.Shared.DTOs
+namespace WoTalk.Shared.DTOs
 {
     public class RegisterDto
     {

@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\BlazingChat.Shared.csproj" />
+    <ProjectReference Include="..\Shared\WoTalk.Shared.csproj" />
   </ItemGroup>
 
 </Project>

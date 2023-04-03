@@ -1,4 +1,4 @@
-﻿namespace BlazingChat.Shared.DTOs
+﻿namespace WoTalk.Shared.DTOs
 {
     public record MessageDto(int ToUserId, int FromUserId, string Message, DateTime SentOn);
 }

@@ -1,1 +1,1 @@
-﻿global using BlazingChat.Shared.DTOs;
+﻿global using WoTalk.Shared.DTOs;

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-namespace BlazingChat.Server.Controllers
+namespace WoTalk.Server.Controllers
 {
     [Authorize]
     public abstract class BaseController : ControllerBase
